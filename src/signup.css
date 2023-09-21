@@ -1,0 +1,160 @@
+/* * {
+    border: 1px solid red;
+} */
+
+.container {
+    margin-top: 5rem;
+}
+
+.header p {
+    font-size: 0.75rem;
+    color: gray;
+}
+
+form {
+    margin-top: 3rem;
+}
+
+form p {
+    margin-top: 2rem;
+}
+
+.label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 25rem;
+    font-size: 1rem;
+    padding: 1rem ;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 5px;
+}
+
+ /* .checkbox {
+   margin-left: -rem;
+   
+}  */
+
+#terms {
+    margin-left: -12rem;
+}
+
+.checkbox label {
+    margin-left: -5rem;
+}
+
+.forgot {
+    display: flex;
+    justify-content: space-evenly;
+    /* transform: translateX(-40%); */
+}
+
+.forgot div label {
+    margin-left: -12rem;
+}
+
+
+.forgot a {
+    margin-left: 12rem;
+    color: #ff6060;
+    text-decoration: none;
+}
+
+#terms:checked {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn {
+    background-color: #00726d;
+    color: #fff;
+    width: 27.5rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+}
+
+.btn:hover {
+    opacity: .8;
+    transform: scaleY(1.1);
+}
+
+.symbol {
+    margin-top: 4rem;
+    padding-left: 3rem;
+    color: gray;
+}
+
+.symbol span {
+    margin: 0 1rem;
+}
+
+.social_btn {
+    padding-left: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.social_btn button {
+    background-color: #fff;
+    margin: 1rem;
+    border: 1px solid lightgray;
+    padding: 0.3rem 1rem;
+}
+
+.google {
+    transform: translateX(95%);
+}
+
+footer {
+    margin-bottom: 4rem;
+    padding-left: 5rem;
+}
+
+footer p {
+    font-size: 1rem;
+    color: gray;
+    
+}
+
+footer p a {
+    text-decoration: none;
+    color: #00726d;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 600px){
+    .container {
+        margin-left: 2rem;
+        margin-right: 1rem;
+    }
+
+    input {
+        width: 20rem;
+    }
+
+    .btn {
+        width: 22rem;
+    }
+    
+    #terms {
+        margin-left: -9rem;
+    }
+
+    .forgot div {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-left: 2rem;
+    }
+}
